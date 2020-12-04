@@ -1,0 +1,17 @@
+
+V	java:S125M"<This block of commented-out lines of code should be removed.(Ó–»½úÿÿÿÿ
+R
+java:S1854"7Remove this useless assignment to local variable "put".(¬­âµ8¬å•ñâ.
+S	java:S106""9Replace this use of System.out or System.err by a logger.(û½Õëøÿÿÿÿ
+>
+java:S1116K"Remove this empty statement.(ôŸìúÿÿÿÿ8‰Í­Íâ.
+C	java:S1316""Add a default case to this switch.(š½š˜üÿÿÿÿ8û˜üğâ.
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ùı€Á
+Z	java:S1062"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ8¸«´Ïâ.
+Z	java:S106J"9Replace this use of System.out or System.err by a logger.(Ø”üÿÿÿÿ8ïŞ®Íâ.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¯±Ö±ùÿÿÿÿ
+V	java:S125Y"<This block of commented-out lines of code should be removed.(„Õ°©ùÿÿÿÿ
+S	java:S106%"9Replace this use of System.out or System.err by a logger.(¤ÜØÛıÿÿÿÿ
+C
+java:S1481"(Remove this unused "put" local variable.(¬­âµ8¬å•ñâ.

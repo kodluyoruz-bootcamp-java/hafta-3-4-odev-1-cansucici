@@ -1,0 +1,19 @@
+
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñþ“Û
+X	java:S1254"<This block of commented-out lines of code should be removed.(Ö¢Ñö8£ý¯ñâ.
+K
+java:S14813")Remove this unused "date" local variable.(”Ç©šùÿÿÿÿ8£ý¯ñâ.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¯±Ö±ùÿÿÿÿ
+k
+java:S1206""PThis class overrides "equals()" and should therefore also override "hashCode()".(Ý¢êÍýÿÿÿÿ
+M
+java:S14812"0Remove this unused "instantTime" local variable.(Î¦ÅÓ8£ý¯ñâ.
+Z
+java:S18543"8Remove this useless assignment to local variable "date".(”Ç©šùÿÿÿÿ8£ý¯ñâ.
+\
+java:S18542"?Remove this useless assignment to local variable "instantTime".(Î¦ÅÓ8£ý¯ñâ.
+c	java:S116"NRename this field "GMT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãããæ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô“Âªùÿÿÿÿ
+U	java:S106:"9Replace this use of System.out or System.err by a logger.(±½¸ª8ÆÕôðâ.
+]	java:S125;"<This block of commented-out lines of code should be removed.(Ñ·þúÿÿÿÿ8ÆÕôðâ.
+X	java:S125A"<This block of commented-out lines of code should be removed.(ÃªÃÇ8²·Éðâ.
