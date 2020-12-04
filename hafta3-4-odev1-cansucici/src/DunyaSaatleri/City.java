@@ -63,12 +63,12 @@ public class City implements Comparable<City>, Clock , Runnable {
         Date date = new Date();
         //   System.out.println(getCityName() + " : "+ instantTime.format(date));
 
-      //  if (getUniqueCode() == "BER") {
-       //     Instant nowUtc = Instant.now();
-        //    ZoneId berlin = ZoneId.of("Europe/Berlin");
-      //      ZonedDateTime nowberlin = ZonedDateTime.ofInstant(nowUtc, berlin);
-      //      System.out.println(getCityName() + " : " + nowberlin);
-     //   }
+      /*  if (getUniqueCode() == "BER") {
+            Instant nowUtc = Instant.now();
+            ZoneId berlin = ZoneId.of("Europe/Berlin");
+            ZonedDateTime nowberlin = ZonedDateTime.ofInstant(nowUtc, berlin);
+            System.out.println(getCityName() + " : " + nowberlin);
+       }
 
         if (getUniqueCode() == "MOW") {
             Instant nowUtc = Instant.now();
@@ -97,6 +97,8 @@ public class City implements Comparable<City>, Clock , Runnable {
             ZonedDateTime nowdel = ZonedDateTime.ofInstant(nowUtc, del);
             System.out.println(getCityName() + " : " + nowdel);
         }
+
+       */
     }
 
     @Override
