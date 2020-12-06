@@ -11,6 +11,15 @@ public class Berlin implements Runnable {
             ZoneId berlin = ZoneId.of("Europe/Berlin");
             ZonedDateTime nowberlin = ZonedDateTime.ofInstant(nowUtc, berlin);
           //  System.out.println(getCityName() + " : " + nowberlin);
-        System.out.println("Berlin time:"+ " : " + nowberlin);
+        System.out.println("Berlin time:" + nowberlin);
+
+        try{
+            Thread.sleep(1000);
+        }
+        catch(Exception e){
+            e.printStackTrace();
+             }
+
+    //   System.exit(55);
     }
 }

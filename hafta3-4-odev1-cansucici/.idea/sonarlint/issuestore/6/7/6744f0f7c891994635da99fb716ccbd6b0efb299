@@ -1,17 +1,24 @@
 
-V	java:S125M"<This block of commented-out lines of code should be removed.(Ó–»½úÿÿÿÿ
-R
-java:S1854"7Remove this useless assignment to local variable "put".(¬­âµ8¬å•ñâ.
-S	java:S106""9Replace this use of System.out or System.err by a logger.(û½Õëøÿÿÿÿ
->
-java:S1116K"Remove this empty statement.(ôŸìúÿÿÿÿ8‰Í­Íâ.
-C	java:S1316""Add a default case to this switch.(š½š˜üÿÿÿÿ8û˜üğâ.
-o
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ùı€Á
-Z	java:S1062"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ8¸«´Ïâ.
-Z	java:S106J"9Replace this use of System.out or System.err by a logger.(Ø”üÿÿÿÿ8ïŞ®Íâ.
+Z	java:S106P"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ8İ÷Èã.
+U	java:S106("9Replace this use of System.out or System.err by a logger.(àÇ¿Ê8ÓÙ©ÿâ.
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ùı€Á8ÓÙ©ÿâ.
+]	java:S125U"<This block of commented-out lines of code should be removed.(Ó–»½úÿÿÿÿ8İ÷Èã.
+8
+java:S2438D""Argument 1" is a "Thread".(”ùùò8ÓÙ©ÿâ.
+=
+java:S2438;""Argument 1" is a "Thread".(‰ò¯™ùÿÿÿÿ8ÓÙ©ÿâ.
+8
+java:S2438A""Argument 1" is a "Thread".(ÍÃ¶û8ÓÙ©ÿâ.
+Z	java:S106M"9Replace this use of System.out or System.err by a logger.(æîø–üÿÿÿÿ8ÓÙ©ÿâ.
+8
+java:S2438>""Argument 1" is a "Thread".(ËÇÊ»8ÓÙ©ÿâ.
+U	java:S106)"9Replace this use of System.out or System.err by a logger.(Ûãÿæ8¡šÈã.
+e
+java:S1128"CRemove this unused import 'javax.swing.plaf.synth.SynthTextAreaUI'.(üë®Ïüÿÿÿÿ8Ùè©Éã.
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(û½Õëøÿÿÿÿ8ÓÙ©ÿâ.
+8
+java:S2438G""Argument 1" is a "Thread".(ıÜ«©8ÓÙ©ÿâ.
 t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¯±Ö±ùÿÿÿÿ
-V	java:S125Y"<This block of commented-out lines of code should be removed.(„Õ°©ùÿÿÿÿ
-S	java:S106%"9Replace this use of System.out or System.err by a logger.(¤ÜØÛıÿÿÿÿ
-C
-java:S1481"(Remove this unused "put" local variable.(¬­âµ8¬å•ñâ.
+C	java:S1319""Add a default case to this switch.(š½š˜üÿÿÿÿ8ÓÙ©ÿâ.
+]	java:S125S"<This block of commented-out lines of code should be removed.(†«‘„øÿÿÿÿ8“°Éã.

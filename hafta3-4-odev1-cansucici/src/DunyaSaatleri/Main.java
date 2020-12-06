@@ -1,5 +1,6 @@
 package DunyaSaatleri;
 
+import javax.swing.plaf.synth.SynthTextAreaUI;
 import java.util.*;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -24,7 +25,8 @@ public class Main {
         codeCityMap.put(berlin.getUniqueCode(), berlin);
         codeCityMap.put(newDelhi.getUniqueCode(), newDelhi);
 
-        //Map içerisindeki tüm key-value değer ikililerini ekrana yazdırır.
+
+
         TreeMap<String, City> sorted = new TreeMap<>();
         sorted.putAll(codeCityMap);
 
@@ -36,64 +38,50 @@ public class Main {
         }
 
         System.out.println("Lütfen 3 harften oluşan şehir kodunu büyük harflerle giriniz. İlerlemek için Enter tuşuna basınız.");
-     //   System.out.println("çıkış için 'OK' yazınız");
-
-        Scanner scan=new Scanner(System.in);
-        String uni=scan.next();
-        String uni2=scan.next();
-        String uni3=scan.next();
-        String uni4=scan.next();
-        String uni5=scan.next();
-
+        System.out.println("çıkış için 'OK' yazınız");
         List<String> list = new ArrayList<>();
-        list.add(uni);
-        list.add(uni2);
-        list.add(uni3);
-        list.add(uni4);
-        list.add(uni5);
-        try {
-        if (list.size() >= 3 && list.size() <= 5) {
-            for (String la : list
-            ) {
-
-                switch (la) {
-                    case "MOW":
-                  executorService.execute(new Thread(new Moscow()));
-                     //   moscow.showTime();
-                        break;
-                    case "BER":
-                        executorService.execute(new Thread(new Berlin()));
-                      //  berlin.showTime();
-                        break;
-                    case "LON":
-                        executorService.execute(new Thread(new London()));
-
-                        //  london.showTime();
-                        break;
-                    case "DEL":
-                        executorService.execute(new Thread(new NewDelhi()));
-
-                        //  newDelhi.showTime();
-                        break;
-                    case "NYC":
-                        executorService.execute(new Thread(new NewYork()));
-
-                        //   newyork.showTime();
-                        break;
+            for (int i = 0; i < 5; i++) {
+                Scanner scan = new Scanner(System.in);
+                String uni = scan.next().toUpperCase();
+                if (uni.equals("OK")) {
+                    break;}
+                 else {
+                    list.add(uni);
                 }
             }
 
-        } else {
-            System.out.println("en az 3 , en fazla 5 kod girebilirsiniz");
-        }}
-        catch (Exception e) {
+            if (list.size() >= 3 && list.size() <= 5) {
+                for (String la : list
+                ) {
 
-            System.out.println("hatalı giriş yaptınız.");
+                    switch (la) {
+                        case "MOW":
+                            executorService.execute(new Thread(new Moscow()));
+                            break;
+                        case "BER":
+                            executorService.execute(new Thread(new Berlin()));
+                            break;
+                        case "LON":
+                            executorService.execute(new Thread(new London()));
+                            break;
+                        case "DEL":
+                            executorService.execute(new Thread(new NewDelhi()));
+                            break;
+                        case "NYC":
+                            executorService.execute(new Thread(new NewYork()));
+                            break;
+                    }
+                }
+
+            } else {
+                System.out.println("çıkış yaptınız.");
+            }
+
+            System.out.println(list);
+
+
+      //  System.exit(55);
         }
-
-        System.out.println(list);
-
-
     /*    Set<Map.Entry<String, City>> pairs = codeCityMap.entrySet();
 
         for (Map.Entry<String, City> line : pairs) {
@@ -105,4 +93,5 @@ public class Main {
 
 
     }
-}
+
+
